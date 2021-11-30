@@ -61,13 +61,14 @@
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
 
-\cvsect{Kdo jsem?}
+%\cvsect{Kdo jsem?}
 
-\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+\begin{minipage}[t]{0.45\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
+	\cvsect{Kdo jsem?}
+
 	%\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
-	Jsem člověk, který před pár lety objevil zájem o IT obor. Programování chci věnovat
+	Jsem člověk, který během studia fyziky objevil zájem o IT obor. Programování chci věnovat
 	svůj profesní život. Aktuálně se nejvíce zajímám o JavaScript, se kterým
 	mám i nejvíce zkušeností. Nově mě zaujal React a zjistil jsem, že rád při psaní JavaScriptu
 	používám TypeScript.
@@ -76,25 +77,89 @@
 	obory se zajímám pouze okrajově, nevylučuji však praktickou zkušenost v budoucnu.
 \end{minipage}
 \hfill % Whitespace between
-\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+\begin{minipage}[t]{0.45\textwidth} % 50% of the page for the skills bar chart
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\begin{barchart}{5.5}
-		\baritem{JavaScript}{70}
-		\baritem{html/css}{60}
-		\baritem{PHP}{40}
-		\baritem{SQL}{40}
-		\baritem{Git}{30}
-		\baritem{Go}{20}
-	\end{barchart}
+	\cvsect{Mé vlastnosti}
+
+	Jsem učenlivý a zvědavý. Vždy mám radost, když se mohu naučit něco nového. V oblasti
+	programovaní jsem samoukem, mám však raději, když mě někdo zkušený vede
+	a kriticky hodnotí moji práci. Nejlépe se učím z vlastních chyb. Mám rád
+	práci na zajímavých projektech, nejlépe takových, které vyžadují přemýšlení
+	či tvořivost. Z dosavadního zaměstnání mám zkušenosti jak
+	s prací se seniorními kolegy, tak s kolegy z jiných, než
+	IT oborů (například při vývoji mapové aplikace nářečních rysů). Druhé
+	jmenované využiji při případné spolupráci s klienty.
+	
 \end{minipage}
 
-\begin{center}
-	\bubbles{4/SASS, 4/Mezzio, 3/MySQL, 2/React, 2/TypeScript, 2/Express}
-\end{center}
+% \begin{center}
+% 	\bubbles{4/SASS, 4/Mezzio, 3/MySQL, 2/React, 2/TypeScript, 2/Express}
+% \end{center}
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
+\cvsect{Programovací jazyky}
+
+\begin{entrylist}
+	\entryShorter
+		{JavaScript}
+		{Ovládám ES6, s psaním moderního JavaScriptu mám přes 2 roky
+		zkušeností.}
+	\entryShorter
+		{HTML/CSS}
+		{Znám moderní CSS, jako flexbox, grid. Umím vytvořit
+		responsivní design.}
+	\entryShorter
+		{PHP}
+		{S PHP pracuji v rámci frameworku Mezzio (dříve
+		Zend-Expressive).}
+	\entryShorter
+		{SQL}
+		{Znám základy návrhu schématu, umím vytvořit relace
+		mezi tabulkami.}
+	\entryShorter
+		{Go}
+		{Prozatím nemám mnoho zkušeností, vytvořil jsem si pouze
+		studijní projekt.}
+\end{entrylist}
+
+\cvsect{Frameworky a nástroje}
+
+\begin{entrylist}
+	\entryShorter
+		{TypeScript}
+		{V mých projektech se snažím TypeScript využívat. Mám s ním
+		zatím zkušenosti v rámci pár mých projektů.}
+	\entryShorter
+		{React}
+		{Zatím mám pouze několik vlastních projektů, v rámci Reactu používám
+		TypeScript. Používám function components a hooks. Mám zkušenost s
+		React Router knihovnou. Jde o můj oblíbený frontendový framework.}
+	\entryShorter
+		{Webpack}
+		{Používám pro modulární JavaScript.}
+	\entryShorter
+		{Mezzio}
+		{Zde mám praktické zkušenosti i v rámci zaměstnání.
+		Vytvořil jsem zde backend pro aplikaci \href{https://korpus.cz/mapka/}{Mapka}.}
+	\entryShorter
+		{SASS/SCSS}
+		{Používám již rok.}
+	\entryShorter
+		{Nodejs/Express}
+		{Udělal jsem zde několik studijních projektů. Zkoušel
+		jsem práci s mongoose, autentikaci přes servery třetích stran
+		(OAuth) či piškvorkový server pro online hraní (socket.io).}
+	\entryShorter
+		{MySQL}
+		{Používám zatím jako jedinou databázovou službu.}
+	\entryShorter
+		{Git}
+		{Znám zaklady práce s repozitáři, jak čistě mými, tak
+		sdílenými se spolupracovníky. Již jsem zkusil i pokročilejší
+		techniky typu rebase.}
+\end{entrylist}
 
 \cvsect{Zkušenosti}
 
@@ -134,6 +199,11 @@
 
 \cvsect{Kurzy}
 \begin{entrylist}
+	\entry
+		{2021}
+		{Working with React and GO (Golang)}
+		{12 hodin}
+		{Udemy}
 	\entry
 		{2020}
 		{Advanced CSS and Sass: Flexbox, Grid, Animations and More!}

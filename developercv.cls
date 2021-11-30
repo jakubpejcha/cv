@@ -202,5 +202,13 @@
 		#4 % Entry description text
 	}\\\\}
 
+\newcommand{\entryShorter}[2]{
+	\parbox[t]{0.175\textwidth}{% 17.5% of the text width of the page
+	\textbf{#1} % Leftmost entry date(s) text
+	}%
+	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
+	#2% Entry heading text
+	}\\\\}
+
 % Command to output a separator slash between lists, e.g. '  /  '
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
